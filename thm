@@ -1,0 +1,5 @@
+LFILE=/root/king.txt
+echo "d3codex" | cp /dev/stdin "$LFILE"
+
+LFILE=file_to_read
+cp "/root/king.txt" /dev/stdout
